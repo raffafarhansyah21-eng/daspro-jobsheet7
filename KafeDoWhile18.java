@@ -36,6 +36,5 @@ public class KafeDoWhile18 {
             System.out.print("Semua transaksi selesai.");
                 
         }
-
     }
 }
