@@ -10,7 +10,7 @@ public class Tugas2Parkir18 {
         int biaya;
         int totalPendapatan = 0;   
 
-                while (true) {
+        while (true) {
             System.out.println("Pilih kendaraan:");
             System.out.println("1. Mobil");
             System.out.println("2. Motor");
@@ -18,9 +18,9 @@ public class Tugas2Parkir18 {
             System.out.print("Pilihan: ");
             jenisKendaraan = sc.nextInt();
 
-            if (jenisKendaraan == 0) {
-                break;
-            }
+        if (jenisKendaraan == 0) {
+            break;
+        }
 
             System.out.print("Lama parkir (jam): ");
             lamaParkir = sc.nextInt();
